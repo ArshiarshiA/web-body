@@ -56,7 +56,6 @@ html{
     display: flex;
     padding: 0 10px;
     height: 773px;
-    /* background-image: url(../assets/imgs/particlesjs-examples.gif); */
     background-size: cover;
 }
 .content-fir{
