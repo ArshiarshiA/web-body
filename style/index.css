@@ -56,7 +56,7 @@ html{
     position: relative;
     display: flex;
     padding: 0 10px;
-    height: 773px;
+    height: 780px;
     background-size: cover;
 }
 .content-fir{
@@ -66,6 +66,7 @@ html{
     background-image: url(../assets/imgs/—Pngtree—future\ technology\ artificial\ intelligence\ ai_5752614.png);
     background-size: contain;
     background-repeat: no-repeat;
+    animation: forImg 1s infinite;
 }
 .content-sec{
     position: absolute;
@@ -77,6 +78,41 @@ html{
     justify-content: center;
     align-items: center;
     padding: 0 65px;
+}
+@keyframes forImg {
+    0%{
+        bottom: 5px;
+    }
+    10%{
+        top: 5px;
+    }
+    20%{
+        bottom: 5px;
+    }
+    30%{
+        top: 5px;
+    }
+    40%{
+        bottom: 5px;
+    }
+    50%{
+        top: 5px;
+    }
+    60%{
+        bottom: 5px;
+    }
+    70%{
+        top: 5px;
+    }
+    80%{
+        bottom: 5px;
+    }
+    90%{
+        top: 5px;
+    }
+    100%{
+        bottom: 5px;
+    }
 }
 .header-container{
     color: white;
