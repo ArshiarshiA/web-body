@@ -66,7 +66,7 @@ html{
     background-image: url(../assets/imgs/—Pngtree—future\ technology\ artificial\ intelligence\ ai_5752614.png);
     background-size: contain;
     background-repeat: no-repeat;
-    animation: forImg 3s infinite;
+    animation: forImg 4s infinite;
 }
 .content-sec{
     position: absolute;
@@ -81,16 +81,16 @@ html{
 }
 @keyframes forImg {
     0% {
-        bottom: 5px;
-      }
-      40% {
-        bottom: 10px;
-      }
-      75% {
         bottom: 0;
       }
+      50% {
+        bottom: 15px;
+      }
+      75% {
+        bottom: 10px;
+      }
       100% {
-        bottom: 5px;
+        bottom: 0;
       }
 }
 .header-container{
